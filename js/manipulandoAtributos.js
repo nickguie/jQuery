@@ -29,3 +29,8 @@ function Relogio(elemento){
 }
 
 $('[wm-relogio]').each((i, e) => new Relogio(e))
+
+// $('[wm-relogio]').attr('opa') //LER O ATRIBUTO
+// $('[wm-relogio]').attr('opa', 3) //ALTERAR OU INCLUIR NOVO ATRIBUTO
+$('[wm-relogio]').attr({ opa:1, novo: true })
+$('[wm-relogio]').removeAttr('opa').removeAttr('novo')
