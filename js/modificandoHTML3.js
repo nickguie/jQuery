@@ -1,8 +1,4 @@
-// $(document).ready(function(){
-    
-    
-    
-    
+// $(document).ready(function(){    
 $(function(){
     const pessoas = [
         { nome: 'Ana', nota: 9.1 },
